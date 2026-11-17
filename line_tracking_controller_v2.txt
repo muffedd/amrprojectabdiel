@@ -1,0 +1,168 @@
+function [tau_L, tau_R, e_lat, e_heading, state_out, station_out] = Line_Tracking_Controller(pos, yaw, t)
+% AGV line follower v2: Stanley steering + speed profile + smooth pivot.
+% Same inputs/outputs and same station/corner state machine as v1.
+% States: 0 FOLLOW, 1 STOP_AT_PALLET, 2 PIVOT_CORNER, 3 COOLDOWN_PALLET
+
+%% ---------------- Tuning parameters ----------------
+v_cruise  = 0.35;  % m/s   cruise speed
+v_min     = 0.05;  % m/s   creep speed at corner/station
+a_max     = 0.30;  % m/s^2 accel/decel limit of speed reference
+w_max     = 0.90;  % rad/s max yaw-rate command
+alpha_max = 0.80;  % rad/s^2 yaw-rate reference ramp
+K_head    = 1.0;   % 1/s   heading gain (yaw rate per rad of steer angle)
+k_stan    = 1.0;   % 1/s   Stanley cross-track gain
+v_soft    = 0.10;  % m/s   Stanley softening speed
+corner_trig = 0.03;% m     start pivot this far before the corner
+stat_trig   = 0.03;% m     stop this far before the station
+K_piv     = 1.0;   % 1/s   pivot heading gain
+w_piv_min = 0.25;  % rad/s minimum pivot rate (beats static friction)
+piv_tol   = 0.05;  % rad   pivot done when heading error below this
+Kp_w      = 0.6;   % N*m per rad/s wheel-speed P gain
+Ki_w      = 0.5;   % N*m per rad   wheel-speed I gain
+i_lim     = 1.0;   % integrator clamp
+slew      = 3.0;   % N*m/s torque slew limit (anti-flip, unchanged)
+tau_limit = 1.2;   % N*m torque limit (anti-flip, unchanged)
+lpf       = 0.3;   % low-pass factor for measured v and wz (per 10 ms)
+dt        = 0.01;  % s     controller sample time
+R_wheel   = 0.073182;
+b_track   = 0.629; % half track width
+
+%% ---------------- Track and stations ----------------
+X = pos(1);
+Y = pos(2);
+stations = [  0.0, -3.0; ...  % 1 Blue
+              5.0,  0.0; ...  % 2 Green
+             -2.5,  3.0 ];    % 3 Red
+edge_starts = [-5.0, -3.0;  5.0, -3.0;  5.0,  3.0; -5.0,  3.0];
+edge_ends   = [ 5.0, -3.0;  5.0,  3.0; -5.0,  3.0; -5.0, -3.0];
+yaw_des_table = [0.0, pi/2, pi, -pi/2];
+
+persistent state target_station t_stop_start t_cooldown_start current_edge
+persistent theta_prev X_prev Y_prev e_int_L e_int_R tau_L_prev tau_R_prev
+persistent wz_f v_f v_ref w_ref
+
+theta = atan2(-sin(yaw), -cos(yaw));   % navigation heading (front of AGV)
+
+if isempty(state)
+    state = 0; target_station = 1; t_stop_start = 0.0; t_cooldown_start = 0.0;
+    current_edge = 1;
+    theta_prev = theta; X_prev = X; Y_prev = Y;
+    e_int_L = 0.0; e_int_R = 0.0; tau_L_prev = 0.0; tau_R_prev = 0.0;
+    wz_f = 0.0; v_f = 0.0; v_ref = 0.0; w_ref = 0.0;
+end
+
+%% ---------------- Measured motion (filtered) ----------------
+wz = atan2(sin(theta - theta_prev), cos(theta - theta_prev)) / dt;
+theta_prev = theta;
+v_meas = ((X - X_prev) * cos(theta) + (Y - Y_prev) * sin(theta)) / dt;
+X_prev = X;  Y_prev = Y;
+wz_f = wz_f + lpf * (wz - wz_f);
+v_f  = v_f  + lpf * (v_meas - v_f);
+w_L_act = (v_f - wz_f * b_track) / R_wheel;
+w_R_act = (v_f + wz_f * b_track) / R_wheel;
+
+%% ---------------- Geometry on current edge ----------------
+P0 = edge_starts(current_edge, :)';
+P1 = edge_ends(current_edge, :)';
+L_seg = norm(P1 - P0);
+u = (P1 - P0) / L_seg;
+along_dist_to_corner = dot(P1 - [X; Y], u);
+
+P_tgt = stations(target_station, :)';
+s_station = dot(P_tgt - P0, u);
+s_robot   = dot([X; Y] - P0, u);
+cross_st  = abs(u(1) * (P_tgt(2) - P0(2)) - u(2) * (P_tgt(1) - P0(1)));
+station_on_edge = (cross_st < 0.05) && (s_station >= -0.01) && (s_station <= L_seg + 0.01);
+if station_on_edge
+    dist_to_station = s_station - s_robot;
+else
+    dist_to_station = 1e3;
+end
+
+%% ---------------- State machine ----------------
+if state == 0
+    if station_on_edge && dist_to_station <= stat_trig
+        state = 1; t_stop_start = t;
+    elseif along_dist_to_corner <= corner_trig
+        current_edge = mod(current_edge, 4) + 1; state = 2;
+    end
+elseif state == 1
+    if (t - t_stop_start) >= 3.0
+        state = 3; t_cooldown_start = t;
+        target_station = mod(target_station, 3) + 1;
+    end
+elseif state == 2
+    e_piv = atan2(sin(yaw_des_table(current_edge) - theta), cos(yaw_des_table(current_edge) - theta));
+    if abs(e_piv) < piv_tol
+        state = 0; e_int_L = 0.0; e_int_R = 0.0;
+    end
+else
+    if along_dist_to_corner <= corner_trig
+        current_edge = mod(current_edge, 4) + 1; state = 2;
+    elseif (t - t_cooldown_start) >= 3.0
+        state = 0;
+    end
+end
+
+%% ---------------- Errors for (possibly new) edge ----------------
+yaw_des = yaw_des_table(current_edge);
+e_yaw = atan2(sin(yaw_des - theta), cos(yaw_des - theta));
+if current_edge == 1
+    e_lat = -3.0 - Y;
+elseif current_edge == 2
+    e_lat = X - 5.0;
+elseif current_edge == 3
+    e_lat = Y - 3.0;
+else
+    e_lat = -5.0 - X;
+end
+% recompute corner distance on the active edge for the speed profile
+P0 = edge_starts(current_edge, :)';
+P1 = edge_ends(current_edge, :)';
+u = (P1 - P0) / norm(P1 - P0);
+d_corner = dot(P1 - [X; Y], u);
+
+%% ---------------- Outer loop: v and yaw-rate references ----------------
+if state == 1
+    v_des = 0.0; w_des = 0.0;
+elseif state == 2
+    v_des = 0.0;
+    w_des = max(-w_max, min(w_max, K_piv * e_yaw));
+    if abs(w_des) < w_piv_min
+        s = sign(e_yaw); if s == 0, s = 1.0; end
+        w_des = w_piv_min * s;
+    end
+else
+    d_lim = max(d_corner, 0.0);
+    if state == 0 && station_on_edge
+        d_lim = min(d_lim, max(dist_to_station, 0.0));
+    end
+    v_des = min(v_cruise, v_min + sqrt(2.0 * a_max * d_lim));
+    v_des = v_des * max(0.3, cos(e_yaw));
+    steer = e_yaw + atan(k_stan * e_lat / (v_soft + abs(v_f)));
+    w_des = max(-w_max, min(w_max, K_head * steer));
+end
+v_ref = v_ref + max(-a_max * dt,     min(a_max * dt,     v_des - v_ref));
+w_ref = w_ref + max(-alpha_max * dt, min(alpha_max * dt, w_des - w_ref));
+
+%% ---------------- Inner loop: wheel-speed PI -> torque ----------------
+w_L_cmd = (v_ref - w_ref * b_track) / R_wheel;
+w_R_cmd = (v_ref + w_ref * b_track) / R_wheel;
+err_L = w_L_cmd - w_L_act;
+err_R = w_R_cmd - w_R_act;
+e_int_L = max(-i_lim, min(i_lim, e_int_L + err_L * dt));
+e_int_R = max(-i_lim, min(i_lim, e_int_R + err_R * dt));
+tau_L_target = Kp_w * err_L + Ki_w * e_int_L;
+tau_R_target = Kp_w * err_R + Ki_w * e_int_R;
+
+d_tau = slew * dt;
+tau_L = tau_L_prev + max(-d_tau, min(d_tau, tau_L_target - tau_L_prev));
+tau_R = tau_R_prev + max(-d_tau, min(d_tau, tau_R_target - tau_R_prev));
+tau_L = max(-tau_limit, min(tau_limit, tau_L));
+tau_R = max(-tau_limit, min(tau_limit, tau_R));
+tau_L_prev = tau_L;
+tau_R_prev = tau_R;
+
+e_heading = e_yaw;
+state_out = double(state);
+station_out = double(target_station);

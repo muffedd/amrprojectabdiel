@@ -1,0 +1,1340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/07/26||04:28:21" using="Simscape Multibody Link Version 7.4" from="SolidWorks 33.1.2"/>
+<ModelUnits mass="kilogram" length="meter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="AGV" uid="AGV" version="104">
+<AssemblyFile name="AGV.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="AGV.STEP-1" uid="AGV.STEP-1" grounded="true" entityUid="AGV.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0 0 0</Translation>
+</Transform>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-4" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-4" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.39648648131644415 0.91804056017874547 2.7141888377058689e-16 3.000000000000001e-15 -1.0000000000000005e-15 -0.99999999999999978 -0.91804056017874547 0.39648648131644415 -3.1506081618526817e-15</Rotation>
+<Translation>0.62918861439071105 1.4053000000000031 0.291013168634424</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-5" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-5" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.40170421849350002 -0.91576946926861802 -2.8934318621188195e-16 -2.9999999999999998e-15 -1.0000000000000001e-15 -1 0.91576946926861802 0.40170421849350002 -3.1490126262993539e-15</Rotation>
+<Translation>0.66918861439071198 1.405300000000004 0.166013168634424</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-2" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-2" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.69274735452268998 -0.72118035386567103 0 -2.9999999999999998e-15 -2.9999999999999998e-15 -1 0.72118035386567103 0.69274735452268998 -4.0000000000000003e-15</Rotation>
+<Translation>-0.25081138560928901 1.405300000000002 0.291013168634424</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-1" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-1" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 -8.9999999999999995e-15 0 0 -4.0000000000000003e-15 -1 8.9999999999999995e-15 1 -4.0000000000000003e-15</Rotation>
+<Translation>-0.69081138560928801 1.4053000000000031 0.291013168634424</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-3" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-3" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.8267246748556506 0.56260671164217269 0 1.999999999999999e-15 -2.9999999999999983e-15 -1 -0.56260671164217269 0.8267246748556506 -3.6053874478512948e-15</Rotation>
+<Translation>0.189188614390711 1.4053000000000031 0.291013168634424</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-6" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-6" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.83716910433122393 -0.54694413860398594 0 -1.9999999999999998e-15 -2.9999999999999994e-15 -0.99999999999999989 0.54694413860398594 0.83716910433122393 -3.6053955902016429e-15</Rotation>
+<Translation>0.66918861439071298 1.405300000000004 -0.0039868313655759997</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-7" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-7" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.92372802134706766 0.38304900806323888 -4.5745360867823921e-15 0.38304900806323888 -0.92372802134706766 2.4084717552645809e-14 4.9999999999999984e-15 -2.3999999999999989e-14 -1</Rotation>
+<Translation>-0.50581138560929595 1.4349999999999941 0.25481316863445502</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-8" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-8" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.92372802134706766 0.38304900806323888 -2.2541900284264864e-16 0.38304900806323888 -0.92372802134706766 3.1542330721044405e-15 9.9999999999999968e-16 -2.9999999999999987e-15 -1</Rotation>
+<Translation>-0.53581138560927799 1.435000000000006 0.25481316863442399</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-3" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-3" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-1 2.0000000000000002e-15 -1.1999999999999999e-14 -2.0000000000000002e-15 -1 -4.0000000000000003e-15 -1.1999999999999999e-14 -4.0000000000000003e-15 1</Rotation>
+<Translation>0.46918861439070197 1.435000000000008 -0.26278683136557801</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-4" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-4" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-1 1.0000000000000001e-15 -1.1999999999999999e-14 -1.0000000000000001e-15 -1 -4.0000000000000003e-15 -1.1999999999999999e-14 -4.0000000000000003e-15 1</Rotation>
+<Translation>0.499188614390703 1.4350000000000089 -0.26278683136557801</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-5" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-5" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.92372802134731702 0.38304900806263797 -1.0000000000000001e-15 0.38304900806263797 -0.92372802134731702 1e-14 2.9999999999999998e-15 -1e-14 -1</Rotation>
+<Translation>0.499188614390709 1.4350000000000021 0.25481316863443298</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-6" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-6" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.92372802134706766 0.38304900806323888 -2.8169210516867888e-15 0.38304900806323888 -0.92372802134706766 1.7235572395153099e-14 3.9999999999999987e-15 -1.6999999999999994e-14 -1</Rotation>
+<Translation>0.46918861439070603 1.4350000000000009 0.25481316863444198</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-8" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-8" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-0.11288854362125099 -0.99360765733717693 -5.4205348285217282e-16 -3.9999999999999995e-15 9.9999999999999988e-16 -0.99999999999999989 0.99360765733717693 -0.11288854362125099 -4.0873191729699576e-15</Rotation>
+<Translation>0.62918861439071505 1.4053000000000051 -0.29898683136557802</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-7" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-7" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.40170421849348198 -0.91576946926862601 -2.8934318621181982e-16 -2.9999999999999998e-15 -1.0000000000000001e-15 -1 0.91576946926862601 0.40170421849348198 -3.1490126262993602e-15</Rotation>
+<Translation>0.66918861439071298 1.405300000000004 -0.17398683136557599</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-18" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-18" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.60981138560928805 1.425000000000002 0.088513168634440004</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-19" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-19" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.60981138560928805 1.4450000000000021 0.088513168634441003</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-20" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-20" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>1 -1.4e-14 2.9999999999999998e-15 -2.0000000000000002e-15 -0.324539911849759 -0.94587200276599304 1.4e-14 0.94587200276599304 -0.324539911849759</Rotation>
+<Translation>-0.60981138560928705 1.425000000000004 -0.096486831365603001</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-1" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-1" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-1 1.0000000000000001e-15 -1.1999999999999999e-14 -1.0000000000000001e-15 -1 -4.0000000000000003e-15 -1.1999999999999999e-14 -4.0000000000000003e-15 1</Rotation>
+<Translation>-0.53581138560929797 1.4350000000000021 -0.262786831365591</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-8" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-8" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1.1999999999999999e-14 -0.70766620459440788 -0.70654691484355492 -4.0000000000000003e-15 0.70654691484355492 -0.70766620459440788 1 -5.6658067957586738e-15 -1.1309227796500289e-14</Rotation>
+<Translation>-0.50581138560928396 1.435000000000006 -0.33598683136559199</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-21" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-21" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.60981138560928805 1.4450000000000069 -0.096486831365558995</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-2" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP-2" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.50581138560928796 1.4350000000000049 -0.262786831365591</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Wheel Assembly.STEP-3" uid="Drive Wheel Assembly.STEP-3" grounded="true" entityUid="Drive Wheel Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1.3e-14 -4.0000000000000003e-15 1 4.0000000000000003e-15 1 4.0000000000000003e-15 -1 4.0000000000000003e-15 1.3e-14</Rotation>
+<Translation>0.48423065993146402 1.275000000000009 -0.29768341960206102</Translation>
+</Transform>
+<Instance name="Wheel Attachment Bracket.STEP-1" uid="Wheel Attachment Bracket.STEP-1" grounded="true" entityUid="Wheel Attachment Bracket.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0013034117635200571 0.13000000000000012 -4.2045540759982902e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" uid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" grounded="true" entityUid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.027803411763520025 0.089999999999999858 -4.2045540758983702e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Motor_Varsayilan.STEP-1" uid="Drive Motor_Varsayilan.STEP-1" grounded="true" entityUid="Drive Motor_Varsayilan.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0.53415009210948605 0.84538966110275304 0 -0.84538966110275304 0.53415009210948605 0</Rotation>
+<Translation>-0.16444658823648001 0.09000000000000008 -4.2045540758983702e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Mount.STEP-1" uid="Wheel Mount.STEP-1" grounded="true" entityUid="Wheel Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 -0.47098248562977202 0 -0.88214256117138001 0.88214256117138001 0 -0.47098248562977202</Rotation>
+<Translation>0.047303411763520042 0.089999999999999858 -4.2045540759039213e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Mecanum Wheel.STEP-1" uid="Mecanum Wheel.STEP-1" grounded="true" entityUid="Mecanum Wheel.STEP*:*Default">
+<Transform>
+<Rotation>0 -9.00000000000005e-15 -1 0.52846662491898588 0.84895407787861876 -7.6405867009075146e-15 0.84895407787861876 -0.52846662491898588 4.7561996242708546e-15</Rotation>
+<Translation>0.33510703301643302 0.10307194305330802 0.16320697387226507</Translation>
+</Transform>
+</Instance>
+<Instance name="Shaft Coupling.STEP-1" uid="Shaft Coupling.STEP-1" grounded="true" entityUid="Shaft Coupling.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99332336160841728 -0.11536333595624503 0 0.11536333595624503 0.99332336160841728</Rotation>
+<Translation>-0.0069021201552180167 0.080134846814646998 0.0057663794768840204</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Base Structure.STEP-1" uid="Base Structure.STEP-1" grounded="true" entityUid="Base Structure.STEP" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 -2.9999999999999998e-15 -1 0 1 -2.9999999999999998e-15</Rotation>
+<Translation>-0.068989112901871 1.5976111288843029 -1.008986831365575</Translation>
+</Transform>
+<Instance name="Magnetic Sensor Attachment Plate.STEP-1" uid="Magnetic Sensor Attachment Plate.STEP-1" grounded="true" entityUid="Magnetic Sensor Attachment Plate.STEP*:*Default">
+<Transform>
+<Rotation>1.3e-14 0 -1 -1 0 -1.3e-14 0 1 0</Rotation>
+<Translation>-0.45182227270741598 1.0050000000000012 0.16461112888429486</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Box Bar 4.STEP-1" uid="Base Box Bar 4.STEP-1" grounded="true" entityUid="Base Box Bar 4.STEP*:*Default">
+<Transform>
+<Rotation>1.3e-14 1 0 -1 1.3e-14 0 0 0 1</Rotation>
+<Translation>-0.50682227270741997 1.274999999999983 0.16261112888429485</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Box Bar 3.STEP-1" uid="Base Box Bar 3.STEP-1" grounded="true" entityUid="Base Box Bar 3.STEP*:*Default">
+<Transform>
+<Rotation>1.3e-14 1 0 -1 1.3e-14 0 0 0 1</Rotation>
+<Translation>-0.15682227270742 1.274999999999987 0.16261112888429485</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Box Bar 1.STEP-1" uid="Base Box Bar 1.STEP-1" grounded="true" entityUid="Base Box Bar 1.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.67182227270741801 1.3000000000000003 0.16261112888429596</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Box Bar 2.STEP-1" uid="Base Box Bar 2.STEP-1" grounded="true" entityUid="Base Box Bar 2.STEP*:*Default">
+<Transform>
+<Rotation>2.9999999999999998e-15 1 0 -1 2.9999999999999998e-15 0 0 0 1</Rotation>
+<Translation>0.73817772729258202 1.3250000000000002 0.16261112888429596</Translation>
+</Transform>
+</Instance>
+<Instance name="Base Box Bar 1.STEP-2" uid="Base Box Bar 1.STEP-2" grounded="true" entityUid="Base Box Bar 1.STEP*:*Default">
+<Transform>
+<Rotation>1 1.3e-14 1.0000000000000001e-15 1.3e-14 -1 0 1.0000000000000001e-15 0 -1</Rotation>
+<Translation>-0.67182227270741401 0.70999999999998109 0.16261112888429397</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Drive Wheel Assembly.STEP-1" uid="Drive Wheel Assembly.STEP-1" grounded="true" entityUid="Drive Wheel Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>0 2.9999999999999998e-15 -1 -2.9999999999999998e-15 1 2.9999999999999998e-15 1 2.9999999999999998e-15 0</Rotation>
+<Translation>-0.52085343115003802 1.2750000000000059 0.289709756870904</Translation>
+</Transform>
+<Instance name="Wheel Attachment Bracket.STEP-1" uid="Wheel Attachment Bracket.STEP-1" grounded="true" entityUid="Wheel Attachment Bracket.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0013034117635200015 0.13000000000000012 -4.2045540759927391e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" uid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" grounded="true" entityUid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02780341176351997 0.089999999999999858 -4.204554075892819e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Motor_Varsayilan.STEP-1" uid="Drive Motor_Varsayilan.STEP-1" grounded="true" entityUid="Drive Motor_Varsayilan.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0.53415009210948605 0.84538966110275304 0 -0.84538966110275304 0.53415009210948605 0</Rotation>
+<Translation>-0.16444658823648001 0.09000000000000008 -4.204554075892819e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Mount.STEP-1" uid="Wheel Mount.STEP-1" grounded="true" entityUid="Wheel Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 -0.47098248562977202 0 -0.88214256117138001 0.88214256117138001 0 -0.47098248562977202</Rotation>
+<Translation>0.047303411763519987 0.09000000000000008 -4.204554075892819e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Mecanum Wheel.STEP-1" uid="Mecanum Wheel.STEP-1" grounded="true" entityUid="Mecanum Wheel.STEP*:*Default">
+<Transform>
+<Rotation>0 -8.9999999999999932e-15 -1 0.52846662491898588 0.84895407787861876 -7.6405867009075667e-15 0.84895407787861876 -0.52846662491898588 4.7561996242708806e-15</Rotation>
+<Translation>0.33510703301643308 0.10307194305330802 0.16320697387226502</Translation>
+</Transform>
+</Instance>
+<Instance name="Shaft Coupling.STEP-1" uid="Shaft Coupling.STEP-1" grounded="true" entityUid="Shaft Coupling.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99332336160841728 -0.11536333595624503 0 0.11536333595624503 0.99332336160841728</Rotation>
+<Translation>-0.0069021201552179612 0.080134846814646998 0.0057663794768840759</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="Drive Wheel Assembly.STEP-2" uid="Drive Wheel Assembly.STEP-2" grounded="true" entityUid="Drive Wheel Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>0 2.9999999999999998e-15 -1 -2.9999999999999998e-15 1 2.9999999999999998e-15 1 2.9999999999999998e-15 0</Rotation>
+<Translation>0.48414656884996199 1.274999999999999 0.289709756870904</Translation>
+</Transform>
+<Instance name="Wheel Attachment Bracket.STEP-1" uid="Wheel Attachment Bracket.STEP-1" grounded="true" entityUid="Wheel Attachment Bracket.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0013034117635200015 0.12999999999999989 -4.2045540759982902e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" uid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" grounded="true" entityUid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02780341176351997 0.089999999999999858 -4.2045540758983702e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Motor_Varsayilan.STEP-1" uid="Drive Motor_Varsayilan.STEP-1" grounded="true" entityUid="Drive Motor_Varsayilan.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0.53415009210948605 0.84538966110275304 0 -0.84538966110275304 0.53415009210948605 0</Rotation>
+<Translation>-0.16444658823648001 0.09000000000000008 -4.2045540758983702e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Mount.STEP-1" uid="Wheel Mount.STEP-1" grounded="true" entityUid="Wheel Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 -0.47098248562977202 0 -0.88214256117138001 0.88214256117138001 0 -0.47098248562977202</Rotation>
+<Translation>0.047303411763519987 0.09000000000000008 -4.2045540758983702e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Mecanum Wheel.STEP-1" uid="Mecanum Wheel.STEP-1" grounded="true" entityUid="Mecanum Wheel.STEP*:*Default">
+<Transform>
+<Rotation>0 -8.9999999999999932e-15 -1 0.52846662491898588 0.84895407787861876 -7.6405867009075667e-15 0.84895407787861876 -0.52846662491898588 4.7561996242708806e-15</Rotation>
+<Translation>0.33510703301643308 0.1030719430533078 0.16320697387226496</Translation>
+</Transform>
+</Instance>
+<Instance name="Shaft Coupling.STEP-1" uid="Shaft Coupling.STEP-1" grounded="true" entityUid="Shaft Coupling.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99332336160841728 -0.11536333595624503 0 0.11536333595624503 0.99332336160841728</Rotation>
+<Translation>-0.0069021201552179612 0.080134846814646776 0.0057663794768839649</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-1" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-1" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.69081138560928801 1.467000000000003 0.29101316863441301</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Casing.STEP-1" uid="Front Casing.STEP-1" grounded="true" entityUid="Front Casing.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043811385609286997 1.332000000000003 -0.0039868313655810001</Translation>
+</Transform>
+</Instance>
+<Instance name="Bottom Casing.STEP-1" uid="Bottom Casing.STEP-1" grounded="true" entityUid="Bottom Casing.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.043811385609286997 1.332000000000003 -0.0039868313655840003</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Wheel Assembly.STEP-4" uid="Drive Wheel Assembly.STEP-4" grounded="true" entityUid="Drive Wheel Assembly.STEP" rigid="true">
+<Transform>
+<Rotation>1.3e-14 -4.0000000000000003e-15 1 4.0000000000000003e-15 1 4.0000000000000003e-15 -1 4.0000000000000003e-15 1.3e-14</Rotation>
+<Translation>-0.52076934006853504 1.2750000000000019 -0.29768341960207301</Translation>
+</Transform>
+<Instance name="Wheel Attachment Bracket.STEP-1" uid="Wheel Attachment Bracket.STEP-1" grounded="true" entityUid="Wheel Attachment Bracket.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.0013034117635200015 0.13000000000000012 -4.2045540759927391e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" uid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP-1" grounded="true" entityUid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.02780341176351997 0.089999999999999858 -4.2045540759039213e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Drive Motor_Varsayilan.STEP-1" uid="Drive Motor_Varsayilan.STEP-1" grounded="true" entityUid="Drive Motor_Varsayilan.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0.53415009210948605 0.84538966110275304 0 -0.84538966110275304 0.53415009210948605 0</Rotation>
+<Translation>-0.16444658823648001 0.09000000000000008 -4.2045540759039213e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Wheel Mount.STEP-1" uid="Wheel Mount.STEP-1" grounded="true" entityUid="Wheel Mount.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 -0.47098248562977202 0 -0.88214256117138001 0.88214256117138001 0 -0.47098248562977202</Rotation>
+<Translation>0.047303411763519987 0.089999999999999858 -4.204554075892819e-05</Translation>
+</Transform>
+</Instance>
+<Instance name="Mecanum Wheel.STEP-1" uid="Mecanum Wheel.STEP-1" grounded="true" entityUid="Mecanum Wheel.STEP*:*Default">
+<Transform>
+<Rotation>0 -9.00000000000005e-15 -1 0.52846662491898588 0.84895407787861876 -7.6405867009075146e-15 0.84895407787861876 -0.52846662491898588 4.7561996242708546e-15</Rotation>
+<Translation>0.33510703301643308 0.10307194305330802 0.16320697387226496</Translation>
+</Transform>
+</Instance>
+<Instance name="Shaft Coupling.STEP-1" uid="Shaft Coupling.STEP-1" grounded="true" entityUid="Shaft Coupling.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0.99332336160841728 -0.11536333595624503 0 0.11536333595624503 0.99332336160841728</Rotation>
+<Translation>-0.0069021201552180167 0.080134846814646998 0.0057663794768840759</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-1" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-1" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1 -3.4660822926407915e-14 1.056538470971103e-14 2.3e-14 -0.38184931868657512 0.92422459273631019 -2.8000000000000001e-14 0.92422459273631019 0.38184931868657512</Rotation>
+<Translation>-0.59481138560925695 1.471700000000022 0.064413168634282994</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-3" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-3" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1 -4.9630808634069645e-14 2.0610260413889932e-14 3.8000000000000002e-14 -0.38184931868657512 0.92422459273631019 -3.8000000000000002e-14 0.92422459273631019 0.38184931868657512</Rotation>
+<Translation>-0.59481138560923896 1.351700000000035 0.064413168634216006</Translation>
+</Transform>
+</Instance>
+<Instance name="SICK 3000 Sensor.STEP-1" uid="SICK 3000 Sensor.STEP-1" grounded="true" entityUid="SICK 3000 Sensor.STEP*:*Default">
+<Transform>
+<Rotation>-1.3e-14 0 -1 0 1 0 1 0 -1.3e-14</Rotation>
+<Translation>-0.60481138560928804 1.4125000000000041 -0.0039868313656029998</Translation>
+</Transform>
+</Instance>
+<Instance name="SICK Sensor Attachment Plate.STEP-1" uid="SICK Sensor Attachment Plate.STEP-1" grounded="true" entityUid="SICK Sensor Attachment Plate.STEP*:*Default">
+<Transform>
+<Rotation>-1.3e-14 0 -1 -5.9999999999999997e-15 1 0 1 5.9999999999999997e-15 -1.3e-14</Rotation>
+<Translation>-0.60081138560929703 1.4125000000000041 -0.0039868313656100003</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Back Casing Weldment.STEP-1" uid="Front Back Casing Weldment.STEP-1" grounded="true" entityUid="Front Back Casing Weldment.STEP" rigid="true">
+<Transform>
+<Rotation>0 -1 0 0 0 -1 1 0 0</Rotation>
+<Translation>0.46468861439071302 1.633898997069358 0.093079504029973004</Translation>
+</Transform>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-2" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-2" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0.92372802134706855 0.38304900806323683 0 0.38304900806323683 -0.92372802134706855 0 0 0 -1</Rotation>
+<Translation>-0.215066335395554 0.77649999999999997 0.16669899706935509</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-4" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-4" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.27093366460444601 0.77649999999999997 0.16669899706935509</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-8" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-8" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.27093366460444601 0.77649999999999997 -0.17090100293064503</Translation>
+</Transform>
+</Instance>
+<Instance name="Front Back Casing.STEP-1" uid="Front Back Casing.STEP-1" grounded="true" entityUid="Front Back Casing.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.097066335395553996 0.76849999999999996 -0.0021010029306449685</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-11" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-11" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.46506633539555398 0.77649999999999997 -0.17090100293064503</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-1" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-1" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>-0.46506633539555398 0.77649999999999997 0.16669899706935509</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-3" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-3" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0.923728021347068 0.38304900806323799 0 0.38304900806323799 -0.923728021347068 0 0 0 -1</Rotation>
+<Translation>0.020933664604445998 0.77649999999999997 0.16669899706935509</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-5" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-5" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>0.28573366460444599 0.77649999999999997 0.14189899706935494</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-6" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-6" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 -0.16063400427066393 -0.98701404076739063 0 -0.98701404076739063 0.16063400427066393 0</Rotation>
+<Translation>0.28573366460444599 0.77649999999999997 -0.0021010029306449685</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-7" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-7" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0.0077175318585950003 0.99997021940756403 0 0.99997021940756403 -0.0077175318585950003 0</Rotation>
+<Translation>0.28573366460444599 0.77649999999999997 -0.1461010029306451</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-9" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-9" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.020933664604445998 0.77649999999999997 -0.17090100293064503</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-10" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-10" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.215066335395554 0.77649999999999997 -0.17090100293064503</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-12" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-12" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.47986633539555401 0.77649999999999997 -0.1461010029306451</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-14" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-14" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 0.99999999999999978 -0.4623127969294788 0.88671690961390959 0 -0.88671690961390959 -0.4623127969294788 0</Rotation>
+<Translation>-0.47986633539555401 0.77649999999999997 0.14189899706935494</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-13" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP-13" grounded="true" entityUid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 -0.0035748462290619985 0.99999361021680466 0 -0.99999361021680466 -0.0035748462290619985 0</Rotation>
+<Translation>-0.47986633539555401 0.77649999999999997 -0.0021010029306449685</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-2" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-2" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1 -1.1999999999999999e-14 -5e-15 0 -0.38184931868462202 0.92422459273711699 -1.3e-14 0.92422459273711699 0.38184931868462202</Rotation>
+<Translation>-0.59481138560929503 1.4717000000000049 -0.072386831365599993</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-4" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP-4" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1 1.0000000000000001e-15 8.8000000000000004e-14 8.0999999999999996e-14 -0.38184931868657301 0.92422459273631097 3.4e-14 0.92422459273631097 0.38184931868657301</Rotation>
+<Translation>-0.59481138560918101 1.351700000000045 -0.072386831365723006</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-3" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-3" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.78611167003875237 0.61808449440904423 -1 0 0 0 -0.61808449440904423 0.78611167003875237</Rotation>
+<Translation>0.189188614390712 1.467000000000003 0.29101316863441601</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-9" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-9" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.72133275484736703 0.69258866348237902 -1 0 0 0 -0.69258866348237902 0.72133275484736703</Rotation>
+<Translation>0.18918861439071399 1.467000000000003 -0.29898683136558302</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-2" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-2" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.99873567161412902 0.050269854241634 -1 0 0 0 -0.050269854241634 0.99873567161412902</Rotation>
+<Translation>-0.25081138560928801 1.467000000000003 0.29101316863441501</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-14" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-14" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.056688220284597031 0.99839192989575243 -1 3.99356771958301e-15 2.2675288113838812e-16 -4.0000000000000003e-15 -0.99839192989575243 -0.056688220284597031</Rotation>
+<Translation>-0.57611320748750805 1.467000000000003 0.196975963166967</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-6" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-6" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 -7.0000000000000001e-15 -1 0 0 0 7.0000000000000001e-15 1</Rotation>
+<Translation>0.66918861439071298 1.467000000000003 -0.0039868313655810001</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-8" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-8" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.2085299816757949 -0.97801597468665746 -1 0 0 0 0.97801597468665746 -0.2085299816757949</Rotation>
+<Translation>0.62918861439071405 1.467000000000003 -0.29898683136558102</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-11" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-11" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.97331457892123396 0.22947490158921799 -1 0 0 0 -0.22947490158921799 0.97331457892123396</Rotation>
+<Translation>-0.22581138560928599 1.467000000000003 -0.20398683136558499</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-12" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-12" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.92225250827758898 0.386588037807297 -1 0 0 0 -0.386588037807297 0.92225250827758898</Rotation>
+<Translation>-0.22581138560928701 1.467000000000003 -0.0039868313655850003</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-3" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-3" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.38304900806329811 -0.92372802134704324 2.9999999999999998e-15 -0.92372802134704324 -0.38304900806329811 -1 -2.7711840640411296e-15 -1.1491470241898944e-15</Rotation>
+<Translation>0.46918861439071102 1.4350000000000021 0.32801316863442398</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-4" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-4" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.23615481489912801 0.97171544363561402 -1 0 0 0 -0.97171544363561402 -0.23615481489912801</Rotation>
+<Translation>0.62918861439071105 1.467000000000003 0.29101316863441801</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-5" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-5" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.83716910433122205 0.54694413860398905 -1 0 0 0 -0.54694413860398905 -0.83716910433122205</Rotation>
+<Translation>0.66918861439071198 1.467000000000003 0.16601316863441901</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-7" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-7" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.104369249777695 0.99453861649552899 -1 0 0 0 -0.99453861649552899 -0.104369249777695</Rotation>
+<Translation>0.66918861439071298 1.467000000000003 -0.17398683136558099</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-10" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-10" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.78907260139300095 0.61429995094487999 -1 0 0 0 -0.61429995094487999 -0.78907260139300095</Rotation>
+<Translation>-0.25081138560928601 1.467000000000003 -0.29898683136558502</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-13" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-13" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.83716910433122205 0.54694413860398905 -1 0 0 0 -0.54694413860398905 -0.83716910433122205</Rotation>
+<Translation>-0.22581138560928801 1.467000000000003 0.19601316863441501</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-15" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-15" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.97733004824728398 0.21172146039776399 -1 0 0 0 -0.21172146039776399 0.97733004824728398</Rotation>
+<Translation>-0.57581138560928702 1.467000000000003 -0.0039868313655860004</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-16" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-16" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.98355101955066204 -0.180630539889723 -1 0 0 0 0.180630539889723 -0.98355101955066204</Rotation>
+<Translation>-0.57581138560928602 1.467000000000003 -0.20398683136558601</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-1" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-1" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.70766620459442886 -0.70654691484353394 2.9999999999999998e-15 -0.70654691484353394 -0.70766620459442886 -1 -2.1196407445306011e-15 -2.1229986137832864e-15</Rotation>
+<Translation>-0.50581138560928895 1.4350000000000021 0.32801316863442398</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-2" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-2" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -2.9999999999999998e-15 1 2.9999999999999998e-15 1 2.9999999999999998e-15 -1 2.9999999999999998e-15 0</Rotation>
+<Translation>-0.53581138560928798 1.4350000000000021 0.32801316863442398</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-17" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP-17" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.69081138560928601 1.467000000000003 -0.29898683136558701</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-4" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-4" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.99999874719045356 0.0015829142501649993 2.9999999999999998e-15 0.0015829142501649993 -0.99999874719045356 -1 0 -2.9999962415713606e-15</Rotation>
+<Translation>0.49918861439071099 1.4350000000000021 0.32801316863442398</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-6" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-6" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1.3e-14 0.99999874719045401 -0.0015829142500390001 -4.0000000000000003e-15 0.0015829142500390001 0.99999874719045401 1 1.3e-14 4.0000000000000003e-15</Rotation>
+<Translation>0.46918861439071602 1.4350000000000049 -0.33598683136558</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-7" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-7" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1.1999999999999999e-14 0.38304900806319414 0.92372802134708643 -4.0000000000000003e-15 -0.92372802134708643 0.38304900806319414 1 9.0167601136998359e-16 1.2616932288417813e-14</Rotation>
+<Translation>-0.53581138560928399 1.435000000000006 -0.33598683136559299</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-5" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP-5" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default">
+<Transform>
+<Rotation>-1.1999999999999999e-14 0.054265469915871015 -0.99852654385089323 -4.0000000000000003e-15 0.99852654385089323 0.054265469915871015 1 4.6452918143940253e-15 -1.1765256646547234e-14</Rotation>
+<Translation>0.49918861439071599 1.4350000000000049 -0.33598683136558</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-9" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-9" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.83716910433116121 -0.54694413860408209 -8.7067489718123779e-16 -3.0000000000000006e-15 -3.0000000000000006e-15 -1 0.54694413860408209 0.83716910433116121 -4.1523397288057308e-15</Rotation>
+<Translation>0.18918861439071499 1.405300000000006 -0.29898683136558302</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-15" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-15" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 -1.0000000000000001e-15 0 0 -4.0000000000000003e-15 -1 1.0000000000000001e-15 1 -4.0000000000000003e-15</Rotation>
+<Translation>-0.225811385609298 1.405300000000004 0.19601316863440901</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-14" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-14" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.83153997636718202 -0.55546491131597697 0 -2.0000000000000002e-15 -2.9999999999999998e-15 -1 0.55546491131597697 0.83153997636718202 -4.0000000000000003e-15</Rotation>
+<Translation>-0.57581138560929801 1.405300000000004 0.19601316863440099</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-16" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-16" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.40170421849348686 -0.91576946926862379 6.2642628305678738e-16 -2.999999999999999e-15 -1.9999999999999998e-15 -1 0.91576946926862379 0.40170421849348686 -3.5507168447928444e-15</Rotation>
+<Translation>-0.22581138560929601 1.4053000000000051 -0.0039868313655909999</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-12" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-12" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-0.61990890349446282 -0.78467378659433562 2.9037913729471685e-16 -2.9999999999999987e-15 1.9999999999999994e-15 -1.0000000000000002 0.78467378659433562 -0.61990890349446282 -3.5938391667719309e-15</Rotation>
+<Translation>-0.57581138560929401 1.405300000000006 -0.203986831365599</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-6" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-6" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.66381138560928599 1.4680000000000031 -0.38598683136558298</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-8" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-8" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.83716910433122205 0.54694413860398905 -1 0 0 0 -0.54694413860398905 -0.83716910433122205</Rotation>
+<Translation>-0.32881138560928502 1.4680000000000031 -0.38598683136558198</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-5" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-5" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.6406041564038838 -0.7678712879109808 -1 0 0 0 0.7678712879109808 -0.6406041564038838</Rotation>
+<Translation>-0.74912028752667603 1.4680000000000031 -0.283986831365584</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-2" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-2" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.85050338326945496 0.52596957616121698 -1 0 0 0 -0.52596957616121698 0.85050338326945496</Rotation>
+<Translation>-0.50381138560928895 1.4680000000000031 0.37801316863441597</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-13" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-13" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 -4.0000000000000003e-15 -1 0 1 -4.0000000000000003e-15</Rotation>
+<Translation>-0.57581138560929501 1.405300000000006 -0.0039868313655989996</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-11" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-11" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.83716910433121927 -0.54694413860399316 -1.9980689672401235e-15 -5.0000000000000008e-15 -4.0000000000000011e-15 -1 0.54694413860399316 0.83716910433121927 -6.0833971103448442e-15</Rotation>
+<Translation>-0.69081138560928501 1.405300000000006 -0.29898683136559401</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-10" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-10" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.052964722788574017 0.99859638400102846 -7.8673749284673277e-16 4.0000000000000019e-15 -1.0000000000000005e-15 -1 -0.99859638400102846 0.052964722788574017 -4.0473502587926899e-15</Rotation>
+<Translation>-0.25081138560928501 1.405300000000006 -0.29898683136558901</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-17" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP-17" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 -1.7e-14 -1.7e-14 0 -1 0 1 0</Rotation>
+<Translation>-0.22581138560926001 1.405300000000008 -0.20398683136559501</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-1" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-1" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.83716910433122205 0.54694413860398905 -1 0 0 0 -0.54694413860398905 -0.83716910433122205</Rotation>
+<Translation>-0.32881138560928902 1.4680000000000031 0.37801316863441697</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-3" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-3" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.994043119210827 0.108987509144901 -1 0 0 0 -0.108987509144901 0.994043119210827</Rotation>
+<Translation>-0.66381138560928898 1.4680000000000031 0.37801316863441597</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-4" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-4" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.53517910099437382 -0.84473861629432667 -1 0 0 0 0.84473861629432667 0.53517910099437382</Rotation>
+<Translation>-0.74912028752667803 1.4680000000000031 0.276013168634416</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-7" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-7" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>5.9999999999999997e-15 1 5.9999999999999997e-15 -1 5.9999999999999997e-15 -5.9999999999999997e-15 -5.9999999999999997e-15 -5.9999999999999997e-15 1</Rotation>
+<Translation>-0.50381138560929495 1.468000000000002 -0.38598683136557299</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-13" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-13" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.50508209742614807 0.86307130346200422 -1 0 0 0 -0.86307130346200422 0.50508209742614807</Rotation>
+<Translation>-0.31181138560928601 1.8160000000000029 -0.37198683136558203</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-18" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-18" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.38304900806323799 -0.923728021347068 0 -0.923728021347068 -0.38304900806323799 -1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.6360000000000039 0.39001316863441898</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-12" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-12" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.64284779694283567 -0.76599393598496768 0 0.76599393598496768 0.64284779694283567 1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.492000000000004 -0.39798683136558</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-21" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-21" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.64071131819413496 -0.76778187445259105 1 0 0 0 -0.76778187445259105 -0.64071131819413496</Rotation>
+<Translation>-0.31181138560928801 1.456000000000004 0.114013168634415</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-23" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-23" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.80819437794507998 0.58891582374560603 1 0 0 0 0.58891582374560603 -0.80819437794507998</Rotation>
+<Translation>-0.31181138560928601 1.456000000000004 -0.37198683136558502</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-11" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-11" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -2.9999999999999998e-15 -1 0 1 -2.9999999999999998e-15 1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.636000000000003 -0.39798683136558</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-15" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-15" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0.15748874563487303 0.98752078205896721 -1 0 0 0 -0.98752078205896721 0.15748874563487303</Rotation>
+<Translation>-0.31181138560928701 1.8160000000000029 0.114013168634417</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-10" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-10" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0 -1 0 1 0 1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.780000000000004 -0.397986831365581</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-14" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-14" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.31181138560928601 1.8160000000000029 -0.121986831365582</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-16" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-16" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.40621074691941 -0.91377942036750603 -1 0 0 0 0.91377942036750603 -0.40621074691941</Rotation>
+<Translation>-0.311811385609289 1.8160000000000029 0.36401316863441702</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-9" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-9" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 1 0 -1 0 0 0 0 1</Rotation>
+<Translation>-0.77581138560928697 1.4680000000000031 -0.0039868313655830002</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-17" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-17" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.62336086164920379 -0.78193429146186078 0 -0.78193429146186078 0.62336086164920379 -1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.780000000000004 0.39001316863441898</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-19" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-19" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.31181138560928601 1.492000000000004 0.39001316863441898</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-20" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-20" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -1 0 1 0 0 0 0 1</Rotation>
+<Translation>-0.311811385609289 1.456000000000004 0.36401316863441402</Translation>
+</Transform>
+</Instance>
+<Instance name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-22" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP-22" grounded="true" entityUid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default">
+<Transform>
+<Rotation>0 -0.99877090003583557 0.049565000167526976 1 0 0 0 0.049565000167526976 0.99877090003583557</Rotation>
+<Translation>-0.31181138560928701 1.456000000000004 -0.121986831365585</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-1" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-1" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.32881138560928902 1.4568000000000041 0.37801316863441398</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-3" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-3" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.99145465081484796 -0.130451812473451 0 0 0 -1 0.130451812473451 0.99145465081484796 0</Rotation>
+<Translation>-0.66381138560928898 1.4568000000000041 0.37801316863441298</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-5" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-5" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.40170421849348115 -0.91576946926862646 0 0 0 -1.0000000000000002 0.91576946926862646 0.40170421849348115 0</Rotation>
+<Translation>-0.77581138560928697 1.4568000000000041 -0.0039868313655879997</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-7" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-7" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 -1.0000000000000001e-15 0 0 4.0000000000000003e-15 1 -1.0000000000000001e-15 -1 4.0000000000000003e-15</Rotation>
+<Translation>-0.66381138560928699 1.45807943176508 -0.38598683136556</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-2" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-2" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.98193259783603004 0.189231005141826 0 0 0 -1 -0.189231005141826 0.98193259783603004 0</Rotation>
+<Translation>-0.50381138560928895 1.4568000000000041 0.37801316863441398</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-4" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-4" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>-0.55262764251707996 -0.83342827449398105 0 0 0 -1 0.83342827449398105 -0.55262764251707996 0</Rotation>
+<Translation>-0.74912028752667803 1.4568000000000041 0.276013168634413</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-8" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-8" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 7.0000000000000001e-15 0 0 0 -1 -7.0000000000000001e-15 1 0</Rotation>
+<Translation>-0.50381138560928596 1.4568000000000041 -0.38598683136558598</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-6" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-6" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>0.83716910433122205 -0.54694413860398905 0 0 0 -1 0.54694413860398905 0.83716910433122205 0</Rotation>
+<Translation>-0.74912028752667503 1.4568000000000041 -0.283986831365587</Translation>
+</Transform>
+</Instance>
+<Instance name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-9" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP-9" grounded="true" entityUid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.32881138560928602 1.456800000000003 -0.38598683136558498</Translation>
+</Transform>
+</Instance>
+<Instance name="Operator Panel.STEP-1" uid="Operator Panel.STEP-1" grounded="true" entityUid="Operator Panel.STEP*:*Default">
+<Transform>
+<Rotation>0 0 1 0 1 0 -1 0 0</Rotation>
+<Translation>-0.41731138560928699 1.8120000000000029 -0.0039868313655810001</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="AGV.STEP" uid="AGV.STEP" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="AGV.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Drive Wheel Assembly.STEP" uid="Drive Wheel Assembly.STEP" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Drive Wheel Assembly.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Base Structure.STEP" uid="Base Structure.STEP" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Base Structure.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="Front Back Casing Weldment.STEP" uid="Front Back Casing Weldment.STEP" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<AssemblyFile name="Front Back Casing Weldment.STEP.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="Base Box Bar 1.STEP" uid="Base Box Bar 1.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Base Box Bar 1.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.79409017708878638</Mass>
+<CenterOfMass>0.70511335562115718 0.00026255456371998456 0</CenterOfMass>
+<Inertia>0.00058725458427919994 0.13190631419475943 0.13190614558288788 0 0 -0.00014696322625967827</Inertia>
+</MassProperties>
+<GeometryFile name="Base Box Bar 1.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base Box Bar 2.STEP" uid="Base Box Bar 2.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Base Box Bar 2.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33240657082646941</Mass>
+<CenterOfMass>0.31999999999999973 0.0012544397030519328 0</CenterOfMass>
+<Inertia>0.00024530148014891625 0.0098918281593572688 0.0098914999721719122 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base Box Bar 2.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base Box Bar 3.STEP" uid="Base Box Bar 3.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Base Box Bar 3.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30420657082647151</Mass>
+<CenterOfMass>0.26999999999999996 0 0</CenterOfMass>
+<Inertia>0.00022497536143395504 0.0075037729034732022 0.0075039677975730799 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base Box Bar 3.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Base Box Bar 4.STEP" uid="Base Box Bar 4.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Base Box Bar 4.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.30352798681329285</Mass>
+<CenterOfMass>0.27000000000000085 -5.6414154812993477e-16 0</CenterOfMass>
+<Inertia>0.00022453071925932259 0.0074978958569809724 0.0074977848793369179 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Base Box Bar 4.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Bottom Casing.STEP" uid="Bottom Casing.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Bottom Casing.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.3890741478918214</Mass>
+<CenterOfMass>0.029424311859095671 0.10689773096700106 -3.6315009501042399e-08</CenterOfMass>
+<Inertia>0.26057204733636558 0.97662476281779698 0.72604633854606526 -9.3449651371003962e-09 8.5589326655674349e-07 0.0013476595897527872</Inertia>
+</MassProperties>
+<GeometryFile name="Bottom Casing.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Diffuse r="0.6470588235294118" g="0.61960784313725492" b="0.58823529411764708" a="1"/>
+<Specular r="0.3235294117647059" g="0.30980392156862746" b="0.29411764705882354" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Drive Motor_Varsayilan.STEP" uid="Drive Motor_Varsayilan.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Drive Motor_Varsayilan.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.33574651519673554</Mass>
+<CenterOfMass>1.1546577577645495e-07 0.00013818003705295094 0.064959195860984253</CenterOfMass>
+<Inertia>0.0006720727620968082 0.00067125675438784523 0.00012205951807918227 3.6750480276582405e-06 2.6459724920469108e-09 1.189908879208412e-11</Inertia>
+</MassProperties>
+<GeometryFile name="Drive Motor_Varsayilan.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Front Back Casing.STEP" uid="Front Back Casing.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Front Back Casing.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.59782276104167209</Mass>
+<CenterOfMass>0 0.0017248513823883618 0</CenterOfMass>
+<Inertia>0.0068257296184070573 0.038566687120628551 0.03174882774829927 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Front Back Casing.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Front Casing.STEP" uid="Front Casing.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Front Casing.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.6623761224916245</Mass>
+<CenterOfMass>-0.5379862389595278 0.34878045422658149 1.8365737608215847e-06</CenterOfMass>
+<Inertia>0.16562591031866666 0.17981885436752484 0.05973019445275992 -2.6890227581982715e-06 -4.2914190843094833e-06 -0.010956120079483893</Inertia>
+</MassProperties>
+<GeometryFile name="Front Casing.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Magnetic Sensor Attachment Plate.STEP" uid="Magnetic Sensor Attachment Plate.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Magnetic Sensor Attachment Plate.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028779398223686151</Mass>
+<CenterOfMass>0 0.0015000000000000002 2.0835952840266079e-05</CenterOfMass>
+<Inertia>8.6441068465747335e-06 6.9933588030812936e-05 6.1332650281573735e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Magnetic Sensor Attachment Plate.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Mecanum Wheel.STEP" uid="Mecanum Wheel.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Mecanum Wheel.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.51392330483511173</Mass>
+<CenterOfMass>-0.14549902807157913 0.07517421568112044 0.25791596499584413</CenterOfMass>
+<Inertia>0.00079207965070611855 0.00079207792720644137 0.0012508329668810359 -2.7561680702946578e-10 -4.1687757262334297e-10 1.5496262707957224e-10</Inertia>
+</MassProperties>
+<GeometryFile name="Mecanum Wheel.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Operator Panel.STEP" uid="Operator Panel.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Operator Panel.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.12901130085630558</Mass>
+<CenterOfMass>0 0.0019960413181068807 0</CenterOfMass>
+<Inertia>0.00029460271393091399 0.0008822926064250287 0.00058811796380276186 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Operator Panel.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SICK 3000 Sensor.STEP" uid="SICK 3000 Sensor.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="SICK 3000 Sensor.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.6945956351350024</Mass>
+<CenterOfMass>1.4844110037396735e-08 0.00059636095099536209 0.074639653091551295</CenterOfMass>
+<Inertia>0.017047214014581327 0.01299134826423072 0.017472713570307219 -0.0012683477742210924 8.7528788596786643e-10 -5.5405594433426537e-10</Inertia>
+</MassProperties>
+<GeometryFile name="SICK 3000 Sensor.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="SICK Sensor Attachment Plate.STEP" uid="SICK Sensor Attachment Plate.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="SICK Sensor Attachment Plate.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.078539327532864522</Mass>
+<CenterOfMass>0 0.0011201379737352342 0.002</CenterOfMass>
+<Inertia>0.0001879476435056095 0.00029154455282440087 0.00047928275812325605 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="SICK Sensor Attachment Plate.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Shaft Coupling.STEP" uid="Shaft Coupling.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Shaft Coupling.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.018099797327566013</Mass>
+<CenterOfMass>0.0053929909168885142 0.0090723231952767967 -0.0068508822591941219</CenterOfMass>
+<Inertia>2.3060461695917051e-06 2.8880419821358227e-06 2.8880644019388601e-06 -1.0331411412181385e-08 -2.7150686432569709e-08 -2.7133340161733802e-08</Inertia>
+</MassProperties>
+<GeometryFile name="Shaft Coupling.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheel Attachment Bracket.STEP" uid="Wheel Attachment Bracket.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Wheel Attachment Bracket.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10573476104167281</Mass>
+<CenterOfMass>0.0019732863862306359 -0.0084789929589606378 0</CenterOfMass>
+<Inertia>0.00013737109440018568 0.00010350314723236682 0.00017520623909768668 0 0 4.2495677854774753e-06</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel Attachment Bracket.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Wheel Mount.STEP" uid="Wheel Mount.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="Wheel Mount.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.028065417970844414</Mass>
+<CenterOfMass>0 0.0099133038562713351 0</CenterOfMass>
+<Inertia>9.2360476646412288e-06 1.0224232198747615e-05 9.2360476646412322e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Wheel Mount.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.91764705882352937" b="0.92941176470588238" a="1"/>
+<Specular r="0.44901960784313727" g="0.45882352941176469" b="0.46470588235294119" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP" uid="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010540850875051092</Mass>
+<CenterOfMass>-4.0502844334367856e-10 2.6436103055728968e-09 -0.0015830649998323065</CenterOfMass>
+<Inertia>5.1455934052534901e-10 5.1457690274289011e-10 8.5699327980858098e-10 0 0 -5.8018895129356372e-15</Inertia>
+</MassProperties>
+<GeometryFile name="hex nut style 1 gradeab_iso_ISO - 4032 - M4 - W - N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M4 x 0.7 --D-N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00010660845165963273</Mass>
+<CenterOfMass>1.0188322583952003e-12 3.3312307969039438e-09 -0.0015985957114658636</CenterOfMass>
+<Inertia>5.2477088409489262e-10 5.2480601909509163e-10 8.7289421129470776e-10 0 0 -1.1640500313039435e-14</Inertia>
+</MassProperties>
+<GeometryFile name="hex nut style 1_am_B18.2.4.1M - Hex nut- Style 1-  M4 x 0.7 --D-N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M5 x 0.8 --D-N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00019253139061713238</Mass>
+<CenterOfMass>9.6041244638155854e-13 6.8717536332789423e-10 -0.0023483213173539617</CenterOfMass>
+<Inertia>1.4163908055925344e-09 1.416469921626544e-09 2.1425404686617125e-09 0 0 -2.2334801328244128e-14</Inertia>
+</MassProperties>
+<GeometryFile name="hex nut style 1_am_B18.2.4.1M - Hex nut- Style 1-  M5 x 0.8 --D-N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP" uid="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="hex nut style 1_am_B18.2.4.1M - Hex nut, Style 1,  M6 x 1 --D-N.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00034286251887303101</Mass>
+<CenterOfMass>1.2993189477228006e-12 8.8863258168611749e-10 -0.0025984527618306418</CenterOfMass>
+<Inertia>3.6762080812359383e-09 3.6764571315332477e-09 5.8494987390072107e-09 0 0 -6.769196115731013e-14</Inertia>
+</MassProperties>
+<GeometryFile name="hex nut style 1_am_B18.2.4.1M - Hex nut- Style 1-  M6 x 1 --D-N.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP" uid="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="radial ball bearing_68_skf_SKF - 61804 - 18,SI,NC,18_68.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0027013117239834544</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>4.861258568741167e-07 2.5199835011210955e-07 2.519983501121095e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="radial ball bearing_68_skf_SKF - 61804 - 18-SI-NC-18_68.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP" uid="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00025860230178671517</Mass>
+<CenterOfMass>0.0054349018240896357 0 0</CenterOfMass>
+<Inertia>1.1493414997787221e-09 4.7802550993348003e-09 4.7802550993348003e-09 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket head cap screw_am_B18.3.1M - 4 x 0.7 x 10 Hex SHCS -- 10NHX.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP" uid="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0014160303564378879</Mass>
+<CenterOfMass>0.029510996989077991 0 0</CenterOfMass>
+<Inertia>6.0929980764531654e-09 5.6252489371174887e-07 5.6252489371174887e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket head cap screw_am_B18.3.1M - 5 x 0.8 x 60 Hex SHCS -- 22NHX.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00095175147267299366</Mass>
+<CenterOfMass>0.010777613164734794 0 0</CenterOfMass>
+<Inertia>8.030172566076597e-09 6.0614003585428754e-08 6.0614003585428754e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 20 Hex SHCS -- 20NHX.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP" uid="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP*:*Default" version="102">
+<ModelUnits mass="kilogram" length="meter"/>
+<PartFile name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0023654681667883977</Mass>
+<CenterOfMass>0.034758952484526102 0 0</CenterOfMass>
+<Inertia>1.4391897689595886e-08 1.2742088691685952e-06 1.2742088691685952e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="socket head cap screw_am_B18.3.1M - 6 x 1.0 x 70 Hex SHCS -- 24NHX.STEP_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
